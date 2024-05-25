@@ -1,0 +1,42 @@
+.msg-box {
+  background: linear-gradient(
+    180deg,
+    rgb(18.000000827014446, 25.000000409781933, 43.00000123679638) 0%,
+    rgba(18.000000827014446, 25.000000409781933, 43.00000123679638, 0) 100%
+  );
+  background-color: transparent;
+  border-radius: 34px;
+  height: 606px;
+  width: 539px;
+}
+
+.msg-input {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--white);
+  width: 426px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.contact-info{
+width: 361px;
+}
+
+.contact-right{
+  padding-top: 20px;
+}
+
+
+@media (max-width: 640px) {
+
+  .msg-box{
+    width: 400px;
+  }
+
+  .msg-input {
+    width: 300px;
+  }
+}
+
+

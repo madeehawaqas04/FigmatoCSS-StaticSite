@@ -1,0 +1,34 @@
+
+/* .image-container  {
+  width: 1250px;
+  height: 787px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.hero-right > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 1254px) {
+  .hero-right > img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .hero-right{
+    padding-top: 20px;
+  }
+}
+
+
+@media (max-width: 640px) {
+
+  .hero-right > img {
+    width: 80%;
+    height: 80%;
+  }
+}

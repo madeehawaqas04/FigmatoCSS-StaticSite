@@ -1,0 +1,213 @@
+.services {
+  background: linear-gradient(
+    180deg,
+    rgba(
+        108.57774496078491,
+        148.6834681034088,
+        251.81250303983688,
+        0.3499999940395355
+      )
+      0%,
+    rgba(
+        21.000000648200512,
+        21.000000648200512,
+        21.000000648200512,
+        0.3100000023841858
+      )
+      100%
+  );
+  background-color: transparent;
+  height: 226px;
+  width: 215px;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: .5px solid rgb(114, 113, 113);
+    box-shadow: var(--shadow);
+    border-radius: 2px; */
+}
+
+.v-service {
+  background: linear-gradient(
+    180deg,
+    rgba(
+        108.57774496078491,
+        148.6834681034088,
+        251.81250303983688,
+        0.3499999940395355
+      )
+      0%,
+    rgba(
+        21.000000648200512,
+        21.000000648200512,
+        21.000000648200512,
+        0.3100000023841858
+      )
+      100%
+  );
+  background-color: transparent;
+  /* border: azure;
+    border-width: thin; */
+  height: 220px;
+  width: 220px;
+  margin: 1.5px;
+}
+
+.g-service {
+  background: linear-gradient(
+    180deg,
+    rgba(
+        108.57774496078491,
+        148.6834681034088,
+        251.81250303983688,
+        0.550000011920929
+      )
+      0%,
+    rgba(108.57774496078491, 148.6834681034088, 251.81250303983688, 0) 100%
+  );
+  background-color: transparent;
+  height: 220px;
+  width: 220px;
+}
+
+.ui-service {
+  background: linear-gradient(
+    180deg,
+    rgba(
+        108.57774496078491,
+        148.6834681034088,
+        251.81250303983688,
+        0.550000011920929
+      )
+      0%,
+    rgba(108.57774496078491, 148.6834681034088, 251.81250303983688, 0) 100%
+  );
+  background-color: transparent;
+  height: 220px;
+  width: 220px;
+}
+
+.web-service {
+  background: linear-gradient(
+    180deg,
+    rgba(
+        108.57774496078491,
+        148.6834681034088,
+        251.81250303983688,
+        0.3499999940395355
+      )
+      0%,
+    rgba(
+        21.000000648200512,
+        21.000000648200512,
+        21.000000648200512,
+        0.3100000023841858
+      )
+      100%
+  );
+  background-color: transparent;
+  height: 220px;
+  width: 220px;
+}
+.service-img {
+  background-color: transparent;
+  height: 99.44734954833984px;
+  width: 95px;
+}
+
+.group-img {
+  height: 89.2587890625px;
+  width: 89.75390625px;
+}
+
+.group-title {
+  background-color: transparent;
+  letter-spacing: 0.84px;
+  line-height: 25.7px;
+  text-align: center;
+  white-space: nowrap;
+  /* width: fit-content; */
+}
+
+.service-desc {
+  color: var(--white);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.group-pText {
+  color: var(--white);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.group-sText {
+  color: var(--main-blue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.service-group {
+  gap: 150px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.service-achievement {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.services-right{
+  padding-top: 10px;
+}
+
+@media (min-width: 640px), (max-width: 768px) {
+  /* .service-achievement {
+    width: 45%;
+  } */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .service-achievement {background: red;} */
+  .service-achievement {
+    width: 70%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px)  {
+  /* .service-achievement {background: green;} */
+
+  .service-achievement {
+    width: 45%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /* .service-achievement {background: blue;} */
+  /* .service-achievement {
+    width: 45%;
+  } */
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .service-achievement {background: orange;} */
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .service-achievement {background: pink;} */
+}

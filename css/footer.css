@@ -1,0 +1,39 @@
+.f-icon {
+  width: 50%;
+  height: 50%;
+}
+
+.f-desc {
+  letter-spacing: 0.84px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.f-menu > a {
+  color: var(--main-blue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .f-menu > a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .f-desc {
+    text-align: center;
+  }
+
+  .f-menu{
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 640px) {
+  .f-desc {
+    width: 717px;
+  }
+}

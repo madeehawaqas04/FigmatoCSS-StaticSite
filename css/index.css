@@ -1,0 +1,293 @@
+:root {
+  --black: #000000;
+  --main-blue: #6d95fc;
+  --white: #ffffff;
+  --font-size-l: 48px;
+  --font-size-m: 21px;
+  --font-size-s: 13px;
+  --font-size-xl: 55px;
+  --font-size-xs: 16px;
+  --font-size-xxl: 80px;
+  --font-size-xxs: 14px;
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.paddings {
+  /* padding: 20px 90px; */
+  padding: 25px 80px 100px 80px;
+
+  /* top,right,bottom,left: ; */
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  /* row-gap: 2rem; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.orangeText {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.button {
+  align-items: center;
+  border: 3px solid;
+  border-color: var(--main-blue);
+  color: var(--white);
+  border-radius: 2px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: transparent;
+  letter-spacing: 2.46px;
+  line-height: normal;
+  transition: all 300ms ease-in;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.line {
+  background-color: transparent;
+  height: 3px;
+  width: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--white);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--main-blue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--main-blue);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.09px;
+  line-height: normal;
+  text-align: center;
+  width: fit-content;
+}
+.subHeading {
+  color: var(--white);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.66px;
+  line-height: normal;
+  text-align: center;
+}
+
+.container {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.wrapper {
+  background: var(--black);
+  color: var(--white);
+}
+
+.main-color {
+  color: var(--main-blue);
+}
+
+.desc {
+  letter-spacing: 0.84px;
+  line-height: 35px;
+  text-align: left;
+  width: 589px;
+  color: var(--white);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.gap30 {
+  gap: 30px;
+}
+
+.gap20 {
+  gap: 20px;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.aboutus-left > img {
+  height: 506px;
+  width: 563px;
+}
+
+@media (max-width: 1254px) {
+  .aboutus-right{
+    padding-top: 40px;
+  }
+}
+
+
+.msg-label {
+  color: var(--white);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.secondaryText {
+  color: var(--main-blue);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.primaryText {
+  color: var(--white);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1254px) {
+  .paddings {
+    padding: 25px 10px 80px 10px;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .desc {
+    width: 463px;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .flexColStart{
+    align-items: center;
+  }
+
+  .desc{
+    text-align: center;
+  }
+}
+
+
+
+
+
+/* media queries
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+} */
+
+
