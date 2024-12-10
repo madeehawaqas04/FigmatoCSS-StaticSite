@@ -1,1 +1,2 @@
-![screencapture-scintillating-smakager-860376-netlify-app-2023-06-18-11_57_15](https://github.com/madeehawaqas04/FigmatoCSS-StaticSite/screencapture-designagency-static-netlify-app-2024-12-10-12_05_33.png)
+
+![(https://github.com/madeehawaqas04/FigmatoCSS-StaticSite/screencapture-designagency-static-netlify-app-2024-12-10-12_05_33.png)]
